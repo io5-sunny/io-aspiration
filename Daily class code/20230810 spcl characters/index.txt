@@ -1,0 +1,40 @@
+`     --> Backtick
+~     --> Tilde
+!     --> Exclamation mark /Not
+@     --> At the rate
+#     --> Hash
+$     --> Dollar
+%     --> Percentage / Modulus
+^     --> Caret
+&     --> Ampersand / Address of
+&&    --> And / Logical And operator
+*     --> Multiplication / Asterisk / star
+(     --> Round braces open/ Paranthesis open
+)     --> Round Braces close / Paranthesis close
+-     --> Hyphen / minus / subtraction / Dash
+_     --> Underscore
++     --> Plus / Addition
+=     --> assign operator
+==    --> Equal to (Value, Not datatype)
+===   --> Equal to  (value, datatype)
+!=    --> Not Equal to(Value, Not datatype)
+!==   --> Not Equal to (value, datatype)
+{     --> Curly braces open
+}     --> Curly braces close
+[     --> sqaure braces open
+]     --> Square braces close
+:     --> Colon 
+;     --> semi-colon
+" "   --> Double Quotes / Double Inverted comma
+' '   --> Single Quotes / Single Inverted Comman
+,     --> Comma
+<     --> Less than, angular braces open
+>     --> Greater then / angular braces close
+.     --> Dot/ full stop
+?     --> Quetion mark
+/     --> Backward slash
+\     --> Forward Slash
+|     --> Pipe
+||    --> OR / Logical OR
+?.    --> Optional Chaining
+??    --> nullish coelscene
