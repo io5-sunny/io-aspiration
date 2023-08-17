@@ -1,0 +1,58 @@
+html --> hyper text markup language
+
+This is not programming language..
+
+website development
+1. Design
+        a. wireframe
+        b. Photoshop/Coreldraw
+        c. Adobe Illustrator
+        d. Figma/Adobe XD
+2. Frontend
+        a. html
+        b. css
+        c. javascript
+        d. css framework
+            i.      Bootstrap
+            ii.     Material Ui
+            iii.    Ant Design
+            iv.     Bulma
+            V.      Tailwind
+        e. JS framework
+            i.      ReactJS
+            ii.     AngularJS
+            iii.    VeuJS
+            iv.     NextJS
+            v.      GetsBy
+
+3. Backend
+        a. NodeJS
+            ExpressJS
+            GraphQL
+            NuxtJS
+        b. Python
+            Django
+            Flask
+            Panda
+        c. PHP
+            CakePHP
+            Laravel
+        d. Ruby on Rails
+        e. Go
+        f. c
+        g. C++
+        h. C#
+        i. Scala
+        j. Java
+                Springboot
+        h. Kotlin
+             
+4. Database
+        i. SQL
+                MySQL
+                PostgreSQL
+        ii. No-SQL
+                MongoDB
+                MariaDB
+                CouchDB
+

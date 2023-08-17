@@ -1,0 +1,94 @@
+<!DOCTYPE .html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width-device-width,initial-scale=1" />
+    <title>assignment 2</title>
+  </head>
+  <style>
+    * {
+      padding: 0;
+      margin: 2;
+      box-sizing: border-box;
+    }
+
+    /* .background {
+      background-color: blue;
+    } */
+    .form {
+      margin: auto;
+      border: 1px solid black;
+      height: 98vh;
+      width: 36%;
+    }
+    fieldset {
+      border: 1px solid black;
+      margin: auto;
+      width: 84%;
+      background-color: beige;
+      font-size: 12px;
+    }
+  </style>
+  <body>
+    <div class="background">
+      <div class="form">
+        <h1>Basic of HTML form</h1>
+        <fieldset>
+          <legend>name</legend>
+
+          <div>
+            <label for="first_name">First name</label>
+            <input id="First_name" type="text" placeholder="Enter your name" />
+          </div>
+          <label for="last_name">last name</label>
+          <input id="last" type="text" placeholder="Enter your name" />
+        </fieldset>
+        <fieldset style="margin-top: 3%">
+          <legend>other question</legend>
+          <div>
+            <p>choose a drink</p>
+            <div>
+              <input type="radio" id="drinks" />
+              <label for="drinks">Coffee</label>
+            </div>
+            <div>
+              <input type="radio" id="drink" />
+              <label for="drink">tea</label>
+            </div>
+            <div>
+              <input type="radio" id="drink" />
+              <label for="drink">cold</label>
+            </div>
+            <dev>
+              <p>what ice cream do you like</p>
+              <input type="radio" id="ice" />
+              <label for="ice">chocolate</label>
+              <div>
+                <input type="radio" id="ice" />
+                <label for="ice">chocolate vanilla</label>
+              </div>
+              <div>
+                <input type="radio" id="ice" />
+                <label for="ice">strawberry</label>
+              </div>
+              <p>select a school</p>
+              <div>
+                <p>
+                  <input type="radio" id="school" />
+                  <label for="school">DCM</label>
+                  <input type="radio" id="school" />
+                  <label for="school">BCM</label>
+                </p>
+              </div>
+              <div>
+                <label for="check">please comment</label>
+                <input id="check" type="" />
+              </div>
+              <input id="btn" type="button" value="submit" />
+            </dev>
+          </div>
+        </fieldset>
+      </div>
+    </div>
+  </body>
+</html>

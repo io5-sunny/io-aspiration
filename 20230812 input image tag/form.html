@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width-device-width,initial-scale=1" />
+    <title>input</title>
+    <style>
+      * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+      }
+
+      .background {
+        width: 100%;
+        height: 100vh;
+      }
+      .form-box {
+        width: 37%;
+        height: 80vh;
+        background-color: azure;
+        margin: 6%auto;
+      }
+      .img-para-cont {
+        align-items: center;
+        display: flex;
+        justify-content: center;
+      }
+      p {
+        margin-top: 4%;
+      }
+      img {
+        margin-top: 4%;
+      }
+      .border-para-cont {
+        text-align: center;
+        background: #f3f2f2;
+        width: 89%;
+        margin: 4%auto;
+      }
+      input {
+        width: 22%;
+        font-size: 0.6rem;
+      }
+
+      .inp1 {
+        margin-left: 8%;
+      }
+      .inp2 {
+        margin-left: 16%;
+      }
+      .inp3 {
+        margin: 2% 0 0 6%;
+        width: 6%;
+      }
+      .inp4 {
+        margin-top: 5%;
+        margin-left: 6%;
+        /* margin: auto; */
+        height: 6vh;
+        width: 89%;
+      }
+      fieldset {
+        height: 26vh;
+        border: 1px solid;
+        margin-left: 4%;
+        width: 92%;
+      }
+      legend {
+        font-size: 0.8rem;
+        margin-left: 6%;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="background">
+      <div class="form-box">
+        <div class="img-para-cont">
+          <img
+            src="../Assignment/golden-logo-template-free-png.webp"
+            alt="logo"
+            width="25px"
+          />
+          <p>Your Company</p>
+        </div>
+        <div class="border-para-cont">
+          <h4>Sign up for our newsletter</h4>
+          <p style="font-size: 0.7rem; margin-top: 2%">
+            Fill out your information below to be signed up for our information
+            newsletter
+          </p>
+        </div>
+        <fieldset>
+          <legend>Details</legend>
+          <div style="font-size: 0.8rem; margin: 3% 6% 0 6%">
+            <label for="first_name">First name</label>
+            <input
+              class="inp1"
+              id="First_name"
+              type="text"
+              placeholder="f.name"
+            />
+            <label for="last_name">last name</label>
+            <input id="last_name" type="text" placeholder="l.name" />
+          </div>
+          <div style="font-size: 0.8rem; margin: 3% 6% 0 6%">
+            <label for="number">Phone number</label>
+
+            <input id="number" type="number" placeholder=" ph.no." />
+            <label for="pass">Password</label>
+            <input id="pass" type="password" placeholder="pass" />
+          </div>
+          <div style="font-size: 0.8rem; margin: 3% 6% 0 6%">
+            <label for="email">Email</label>
+            <input class="inp2" id="email" type="text" placeholder="company" />
+            <label for="company">Company</label>
+            <input id="company" type="text" placeholder="company" />
+          </div>
+        </fieldset>
+        <p style="font-size: 0.7rem; margin-left: 6%">
+          Add me to your mailing list
+        </p>
+        <input class="inp3" id="checkbox" type="checkbox" />
+        <label style="font-size: 0.5rem" for="checkbox"
+          >I agree to receive e-mails from your company and your terms and
+          condtions</label
+        >
+        <div style="width: 100%">
+          <input class="inp4" id="btn" type="button" value="Sign me up" />
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

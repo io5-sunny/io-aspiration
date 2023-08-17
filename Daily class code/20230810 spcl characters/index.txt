@@ -9,8 +9,8 @@ $     --> Dollar
 &     --> Ampersand / Address of
 &&    --> And / Logical And operator
 *     --> Multiplication / Asterisk / star
-(     --> Round braces open/ Paranthesis open
-)     --> Round Braces close / Paranthesis close
+(     --> Round braces open/ Parenthesis open
+)     --> Round Braces close / Parenthesis close
 -     --> Hyphen / minus / subtraction / Dash
 _     --> Underscore
 +     --> Plus / Addition
@@ -21,20 +21,21 @@ _     --> Underscore
 !==   --> Not Equal to (value, datatype)
 {     --> Curly braces open
 }     --> Curly braces close
-[     --> sqaure braces open
+[     --> square braces open
 ]     --> Square braces close
 :     --> Colon 
 ;     --> semi-colon
 " "   --> Double Quotes / Double Inverted comma
-' '   --> Single Quotes / Single Inverted Comman
+' '   --> Single Quotes / Single Inverted Comma
 ,     --> Comma
 <     --> Less than, angular braces open
 >     --> Greater then / angular braces close
 .     --> Dot/ full stop
-?     --> Quetion mark
+?     --> Question mark
 /     --> Backward slash
 \     --> Forward Slash
 |     --> Pipe
 ||    --> OR / Logical OR
 ?.    --> Optional Chaining
-??    --> nullish coelscene
+??    --> nullish coalescence
+
