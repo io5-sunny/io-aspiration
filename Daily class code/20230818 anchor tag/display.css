@@ -1,0 +1,17 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.property {
+  border: 1px solid black;
+  width: 10%;
+  height: 16vh;
+  margin-top: 3%;
+  /* margin-left: 3%; */
+  flex-direction: column;
+}
+.parent {
+  display: flex;
+  align-items: right;
+}
