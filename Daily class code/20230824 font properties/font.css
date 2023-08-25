@@ -1,0 +1,69 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  width: 100%;
+  height: 50vh;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.text {
+  border: 1px solid black;
+  margin: 2% 2% 0% 0;
+  font-family: "Black Ops One", cursive;
+}
+.text1 {
+  font-size: small;
+}
+.text2 {
+  font-size: smaller;
+}
+.text3 {
+  font-size: x-small;
+}
+.text4 {
+  font-size: xx-small;
+}
+.text5 {
+  font-size: medium;
+}
+.text6 {
+  font-size: large;
+}
+.text7 {
+  font-size: larger;
+}
+.text8 {
+  font-size: x-large;
+}
+.text9 {
+  font-size: xx-large;
+}
+.text10 {
+  font-size: xxx-large;
+}
+.text11 {
+  font-weight: bold;
+}
+.text12 {
+  font-weight: bolder;
+}
+.text13 {
+  font-weight: 600;
+}
+.text14 {
+  font-weight: lighter;
+}
+.text15 {
+  font-weight: normal;
+}
+.text16 {
+  color: red;
+}
+.text17 {
+  color: green;
+  font-size: medium;
+}

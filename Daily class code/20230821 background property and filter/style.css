@@ -1,0 +1,43 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.parent {
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  display: flex;
+}
+.filter {
+  margin: 1%;
+}
+.filter1 {
+  filter: brightness(0.6);
+}
+.filter2 {
+  filter: blur(3px);
+}
+.filter3 {
+  filter: saturate(3);
+}
+.filter4 {
+  filter: contrast(2);
+}
+.filter5 {
+  filter: drop-shadow(5px 2px 4px red);
+}
+.filter6 {
+  filter: hue-rotate(105deg);
+}
+.filter7 {
+  filter: grayscale(14);
+}
+.filter8 {
+  filter: opacity(0.5);
+}
+.filter9 {
+  filter: sepia(5);
+}
+.filter10 {
+  filter: invert(1);
+}

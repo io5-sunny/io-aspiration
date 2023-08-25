@@ -1,0 +1,109 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  width: 100%;
+  height: 100vh;
+}
+.para {
+  margin-top: 3%;
+}
+.para1 {
+  text-align: center;
+}
+.para2 {
+  text-align: left;
+}
+.para3 {
+  text-align: right;
+}
+.para4 {
+  text-align: justify;
+}
+.para5 {
+  text-decoration: overline;
+}
+.para6 {
+  text-decoration: underline;
+}
+.para7 {
+  text-decoration: overline underline;
+}
+.para8 {
+  text-decoration: line-through;
+}
+.para9 {
+  text-decoration-line: underline;
+  text-decoration-style: double;
+}
+.para10 {
+  text-decoration-line: underline;
+  text-decoration-style: dashed;
+}
+.para11 {
+  text-decoration-line: underline;
+  text-decoration-style: dotted;
+}
+.para12 {
+  text-decoration-line: underline;
+  text-decoration-style: wavy;
+}
+.para13 {
+  text-decoration-line: underline;
+  text-decoration-style: solid;
+}
+.para14 {
+  text-decoration-line: underline;
+  text-decoration-style: dashed;
+  text-decoration-color: blue;
+}
+.para15 {
+  text-decoration-line: underline;
+  text-decoration-style: dashed;
+  text-decoration-color: blue;
+  text-decoration-thickness: 2px;
+}
+.para16 {
+  text-decoration: underline double green 3px;
+}
+
+.para17 {
+}
+p {
+  margin: auto;
+  width: 88%;
+}
+img {
+  width: 26%;
+  float: left;
+}
+.para26 {
+  direction: rtl;
+  unicode-bidi: bidi-override;
+}
+.para27 {
+  direction: rtl;
+  unicode-bidi: embed;
+}
+.para28 {
+  white-space: normal;
+}
+.para29 {
+  white-space: nowrap;
+}
+.para30 {
+  white-space: pre;
+}
+.para32 {
+  background-image: url(./ficus\ lytra.jpg);
+  background-size: cover;
+  width: 50%;
+  height: 105%;
+}
+.text {
+  font-weight: bold;
+  font-size: xxx-large;
+  color: #db9c27;
+}

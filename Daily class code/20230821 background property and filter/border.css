@@ -1,0 +1,104 @@
+.border {
+  margin-top: 3%;
+  margin-left: 3%;
+}
+body {
+  display: flex;
+  flex-wrap: wrap;
+}
+.border1 {
+  width: 30%;
+  border-style: solid;
+}
+.border2 {
+  width: 30%;
+  border-style: dashed;
+}
+.border3 {
+  width: 30%;
+  border-style: dotted;
+}
+.border4 {
+  border: 13px;
+  height: 5vh;
+  width: 30%;
+  border-style: groove;
+}
+
+.border5 {
+  border: 13px;
+  height: 5vh;
+  width: 30%;
+  border-style: ridge;
+}
+.border6 {
+  height: 2vh;
+  width: 30%;
+  border-style: double;
+}
+.border7 {
+  height: 5vh;
+  width: 30%;
+  border-style: inset;
+}
+.border8 {
+  height: 5vh;
+  width: 30%;
+  border-style: outset;
+}
+.border9 {
+  border: 13px;
+  height: 5vh;
+  width: 30%;
+  border-style: hidden;
+}
+.border10 {
+  border: 13px;
+  height: 5vh;
+  width: 30%;
+  border-style: none;
+}
+.border11 {
+  border-top-left-radius: 19px;
+  height: 12vh;
+  border: 3px solid red;
+  width: 6%;
+}
+.border12 {
+  border-bottom-left-radius: 19px;
+  height: 12vh;
+  border: 3px solid red;
+  width: 6%;
+}
+.border13 {
+  border-top-right-radius: 19px;
+  height: 12vh;
+  border: 3px solid red;
+  width: 6%;
+}
+.border14 {
+  border-bottom-right-radius: 19px;
+  height: 12vh;
+  border: 3px solid red;
+  width: 6%;
+}
+.border15 {
+  border-bottom-right-radius: 19px;
+  border-top-left-radius: 19px;
+  height: 12vh;
+  border: 3px solid red;
+  width: 6%;
+}
+.border16 {
+  border-bottom-left-radius: 19px;
+  border-top-right-radius: 19px;
+  height: 12vh;
+  border: 3px solid red;
+  width: 6%;
+}
+.border17 {
+  border-radius: 15px 0 15px 0;
+  height: 12vh;
+  border: 3px solid red;
+  width: 6%;
+}

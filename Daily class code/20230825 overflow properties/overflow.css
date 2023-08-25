@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.overflow {
+  height: 20vh;
+  border: 1px solid black;
+  width: 50%;
+  margin-top: 5%;
+}
+.overflow1 {
+  overflow: auto;
+}
+.overflow2 {
+  overflow: scroll;
+}
+.overflow3 {
+  overflow: hidden;
+}
+.overflow4 {
+  overflow: visible;
+}
+.overflow5 {
+  margin-top: 13%;
+  overflow: clip;
+}
+.overflow6 {
+  overflow-x: auto;
+}
+.overflow7 {
+  overflow-x: hidden;
+}
+.overflow8 {
+  overflow-x: scroll;
+}
+.overflow9 {
+  overflow-x: visible;
+}
+.overflow10 {
+  margin-top: 13%;
+  overflow-y: auto;
+}
+.overflow11 {
+  overflow-y: hidden;
+}
+.overflow12 {
+  overflow-y: scroll;
+}
+.overflow13 {
+  overflow-y: visible;
+}
+.overflow14 {
+  margin-top: 13%;
+}

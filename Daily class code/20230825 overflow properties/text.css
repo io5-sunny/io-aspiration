@@ -1,0 +1,36 @@
+.text {
+  font-size: 30px;
+  border: 2px solid red;
+  margin-top: 2%;
+}
+.text1 {
+  text-shadow: 5px 1px 3px red;
+}
+.text2 {
+  text-transform: capitalize;
+}
+.text3 {
+  text-transform: lowercase;
+}
+.text4 {
+  text-transform: uppercase;
+}
+.text5 {
+  text-indent: 8%;
+}
+.text6 {
+  writing-mode: horizontal-tb;
+}
+.text7 {
+  writing-mode: vertical-lr;
+}
+.text8 {
+  writing-mode: vertical-rl;
+}
+.text9 {
+  box-shadow: 2px 2px 3px 4px green;
+  background: bisque;
+  width: 50%;
+  border: 3px solid blue;
+  height: 23vh;
+}
