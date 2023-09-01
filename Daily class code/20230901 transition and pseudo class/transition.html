@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>transition</title>
+    <style>
+      .red,
+      .yellow,
+      .blue,
+      .pink,
+      .green {
+        width: 10%;
+        height: 60px;
+        transition-property: width;
+        transition-duration: 5s;
+      }
+      .red {
+        transition-timing-function: linear;
+        background-color: red;
+        transition-delay: 1s;
+      }
+      .yellow {
+        transition-timing-function: ease-in;
+        background-color: yellow;
+        transition-delay: 1s;
+      }
+      .blue {
+        transition-timing-function: ease-out;
+        background-color: blue;
+        transition-delay: 1s;
+      }
+      .pink {
+        transition-timing-function: ease-in-out;
+        background-color: pink;
+        transition-delay: 1s;
+      }
+      .yellow {
+        transition-timing-function: ease-in;
+        background-color: yellow;
+        transition-delay: 1s;
+      }
+      .red:hover,
+      .yellow:hover,
+      .blue:hover,
+      .pink:hover,
+      .green:hover {
+        width: 80%;
+      }
+      .green {
+        width: 10%;
+        height: 60px;
+        background-color: green;
+        /* transition:transition-property: transition-duration: transition-timing-function: transition-delay: ;;;; */
+        transition: width 2s, background-color 2s, border 1s;
+      }
+      .green:hover {
+        background-color: brown;
+        width: 80%;
+        border: 1px solid black;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- transition --use to chnageone state to another state
+    transition-property--width,all
+transition-duration--timing pf animation
+transition-delay-- to put any delay for transition
+transition-timing-function--
+linear--transist in same time
+ease-in:fast start slow end
+ease-out:slow start and fast end
+ease-in-out:slow fast slow
+ -->
+    <div class="red"></div>
+    <div class="yellow"></div>
+    <div class="pink"></div>
+    <div class="blue"></div>
+    <div class="green"></div>
+  </body>
+</html>

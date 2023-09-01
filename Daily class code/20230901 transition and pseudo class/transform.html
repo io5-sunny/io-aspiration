@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>transform</title>
+    <style>
+      .property1 {
+        position: absolute;
+        top: 10%;
+        width: 11%;
+        height: 15vh;
+        transition-property: all;
+        transition-duration: 2s;
+        background: blue;
+      }
+      .property1:hover {
+        background-color: blueviolet;
+        transform: rotate(45deg);
+      }
+      .property2 {
+        position: absolute;
+        top: 10%;
+        left: 15%;
+        width: 11%;
+        height: 15vh;
+        transition-property: all;
+        transition-duration: 2s;
+        background: rgb(191, 103, 53);
+      }
+      .property2:hover {
+        background-color: blueviolet;
+        transform: translateX(50px);
+      }
+      .property3 {
+        position: absolute;
+        top: 10%;
+        left: 30%;
+        width: 11%;
+        height: 15vh;
+        transition-property: all;
+        transition-duration: 2s;
+        background: rgb(192, 153, 130);
+      }
+      .property3:hover {
+        background-color: rgb(171, 136, 204);
+        transform: translateX(10%);
+      }
+      .property4 {
+        position: absolute;
+        top: 10%;
+        left: 45%;
+        width: 11%;
+        height: 15vh;
+        transition-property: all;
+        transition-duration: 2s;
+        background: rgb(53, 169, 45);
+      }
+      .property4:hover {
+        background-color: rgb(26, 192, 195);
+        transform: translateY(10%);
+      }
+      .property5 {
+        position: absolute;
+        top: 10%;
+        left: 60%;
+        width: 11%;
+        height: 15vh;
+        transition-property: all;
+        transition-duration: 2s;
+        background: rgb(221, 86, 8);
+      }
+      .property5:hover {
+        background-color: rgb(29, 9, 48);
+        transform: translateY(100px);
+      }
+      .property6 {
+        position: absolute;
+        top: 10%;
+        left: 75%;
+        width: 11%;
+        height: 15vh;
+        transition-property: all;
+        transition-duration: 2s;
+        background: rgb(211, 209, 209);
+      }
+      .property6:hover {
+        background-color: rgb(204, 19, 121);
+        transform: scale(2);
+      }
+      .property7 {
+        position: absolute;
+        top: 10%;
+        left: 90%;
+        width: 11%;
+        height: 15vh;
+        transition-property: all;
+        transition-duration: 2s;
+        background: rgb(198, 126, 126);
+      }
+      .property7:hover {
+        background-color: rgb(74, 7, 44);
+        transform: scale(0.5);
+      }
+    </style>
+  </head>
+  <body>
+    <!-- transform property
+ 1.   rotate:to rotate ny element T Specific direction
+transform:rotate(angles)
+ transform:rotate(45deg)
+
+ 2.translateY:to move any element from it's place to y-axis
+transform:translateY(10%)
+transform:translateY(10px)
+
+
+  3.translateX:to move any element from it's place to x-axis
+  transform:translateX(10%)
+  transform:translateX(10%)
+
+  4.scale:to increase or decrese the size of any element
+  transform:scale(2)
+    transform:scale(.5)::half
+-->
+    <div class="property1"></div>
+    <div class="property2"></div>
+    <div class="property3"></div>
+    <div class="property4"></div>
+    <div class="property5"></div>
+    <div class="property6"></div>
+    <div class="property7"></div>
+    <div class="property8"></div>
+  </body>
+</html>

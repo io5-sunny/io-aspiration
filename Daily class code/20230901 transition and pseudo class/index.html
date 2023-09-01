@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>pseudo class</title>
+    <style>
+      .click {
+        background-color: aliceblue;
+        border: 1px solid black;
+        color: brown;
+        position: absolute;
+        top: 4%;
+        text-decoration: none;
+        border-radius: 5px;
+        padding: 1%;
+      }
+      .mail:link {
+        background-color: aliceblue;
+        color: brown;
+        position: absolute;
+        top: 15%;
+        font-size: xx-large;
+        text-decoration: none;
+      }
+      .mail:hover {
+        background: red;
+      }
+      .mail2:active {
+        background-color: blue;
+        font-size: xx-large;
+        color: white;
+        position: absolute;
+        top: 25%;
+        text-decoration: none;
+      }
+      .mail3:visited {
+        background-color: brown;
+        font-size: xx-large;
+        color: white;
+        position: absolute;
+        top: 35%;
+        text-decoration: none;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- pseudo class
+    classname:visited
+classname:link
+classname:active
+classname:hover -->
+    <main>
+      <a href="#" class="click">click me</a>
+      <a href="#" class="mail">mail me</a>
+      <!-- <a href="#" class="mail">mail me</a>
+      <a href="#" class="mail">mail me</a>
+      <a href="#" class="mail">mail me</a>
+      <a href="#" class="mail">mail me</a>
+      <a href="#" class="mail">mail me</a>
+      <a href="#" class="mail">mail me</a> -->
+      <a href="#" class="mail2">mail me</a>
+      <a href="#" class="mail3">mail me</a>
+    </main>
+  </body>
+</html>

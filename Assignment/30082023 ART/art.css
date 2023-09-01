@@ -1,0 +1,148 @@
+.container {
+  margin: auto;
+  width: 70%;
+  height: 89vh;
+  background: green;
+  position: relative;
+}
+.body1 {
+  width: 27%;
+  height: 35vh;
+  background: silver;
+  top: 30%;
+  position: absolute;
+  left: 24%;
+  border-bottom-left-radius: 50%;
+  border-bottom-right-radius: 50%;
+  border-top-left-radius: 50%;
+  border-top-right-radius: 50%;
+}
+.body2 {
+  border-bottom-left-radius: 40%;
+  background: silver;
+  top: 29%;
+  position: absolute;
+  width: 23%;
+  height: 29vh;
+  left: 48%;
+  border-top-left-radius: 65%;
+  /* border-bottom-right-radius: 91%; */
+  border-top-right-radius: 60%;
+  border-bottom-right-radius: 55%;
+}
+.body3 {
+  border-top-right-radius: 21%;
+  background: silver;
+  top: 50%;
+  position: absolute;
+  width: 5%;
+  height: 16vh;
+  left: 53%;
+  border-bottom-left-radius: 50%;
+  border-top-left-radius: 63%;
+  border-bottom-right-radius: 50%;
+}
+.body4 {
+  border-top-right-radius: 21%;
+  background: silver;
+  top: 55%;
+  position: absolute;
+  width: 5%;
+  height: 16vh;
+  left: 43%;
+  border-bottom-left-radius: 50%;
+  border-top-left-radius: 63%;
+  border-bottom-right-radius: 50%;
+}
+.body5 {
+  border-top-right-radius: 21%;
+  background: silver;
+  top: 50%;
+  position: absolute;
+  width: 5%;
+  height: 14vh;
+  left: 65%;
+  border-bottom-left-radius: 50%;
+  border-top-left-radius: 63%;
+  border-bottom-right-radius: 50%;
+}
+.body6 {
+  border-top-right-radius: 21%;
+  background: silver;
+  top: 48%;
+  position: absolute;
+  width: 5%;
+  height: 15vh;
+  left: 59%;
+  border-bottom-left-radius: 50%;
+  border-top-left-radius: 63%;
+  border-bottom-right-radius: 50%;
+}
+
+.eye-container {
+  left: 14%;
+  top: 25%;
+  height: 7vh;
+  position: absolute;
+  width: 68%;
+}
+.left-eye {
+  background: #5c5353;
+  border-radius: 92%;
+  left: 8%;
+  height: 2vh;
+  position: absolute;
+  width: 22%;
+  top: 30%;
+}
+.right-eye {
+  background: #5c5353;
+  border-radius: 92%;
+  left: 56%;
+  height: 2vh;
+  position: absolute;
+  width: 15%;
+  top: 32%;
+}
+.nose {
+  background: darkgray;
+  border-bottom-right-radius: 50px;
+  left: 108px;
+  height: 10.2vh;
+  position: absolute;
+  width: 16%;
+  top: 34%;
+  border-bottom-left-radius: 39px;
+}
+.pupil {
+  top: 63%;
+  border-radius: 50%;
+  left: 170px;
+  height: 2.4vh;
+  position: absolute;
+  width: 13%;
+  background: white;
+}
+.body7 {
+  background: silver;
+  top: 27%;
+  position: absolute;
+  width: 5%;
+  height: 7vh;
+  left: 42%;
+  border-bottom-right-radius: 48%;
+  border-top-left-radius: 94%;
+  border-top-right-radius: 145%;
+}
+.right-ear {
+  background: white;
+  left: 13%;
+  position: absolute;
+  width: 74%;
+  height: 6vh;
+  top: 13%;
+  border-bottom-left-radius: 50%;
+  border-bottom-right-radius: 50%;
+  border-top-right-radius: 50%;
+  border-top-left-radius: 50%;
+}
