@@ -4,31 +4,205 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>signup form</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
   </head>
   <style>
     .container {
-      height: 200vh;
+      border: blue;
       background: #313131;
+      width: 94%;
+      height: 100vh;
       margin: auto;
     }
+    .image {
+      display: flex;
+    }
     img {
-      margin-left: 16%;
-      height: 97vh;
-      margin-top: 20%;
+      margin-left: 15%;
+      width: 33%;
+      height: 93vh;
+      margin-top: 2%;
     }
     .border {
       background: white;
-      width: 30%;
-      height: 96.5vh;
-      margin-left: 46%;
-      margin-top: -46%;
+      width: 35%;
+      height: 93vh;
+      margin-top: 2%;
+      margin-left: -17%;
+    }
+    p {
+      padding-left: 10%;
+      padding-top: 7%;
+      font-size: xx-large;
+    }
+    .label1 {
+      font-size: large;
+      margin-left: 6%;
+    }
+    .label2 {
+      font-size: large;
+      margin-left: 6%;
+    }
+    .label3 {
+      font-size: large;
+      margin-left: 6%;
+    }
+    .label4 {
+      font-size: large;
+      margin-left: 6%;
+    }
+    .label5 {
+      font-size: large;
+      margin-left: 6%;
+    }
+    .id1 {
+      margin-bottom: 3%;
+    }
+    .id2 {
+      margin-bottom: 3%;
+    }
+    .id3 {
+      margin-bottom: 3%;
+    }
+    .id4 {
+      margin-bottom: 3%;
+    }
+    .id5 {
+      margin-bottom: 3%;
+    }
+    .inp1 {
+      margin-left: 13%;
+      width: 35%;
+
+      height: 4vh;
+    }
+    .inp2 {
+      margin-left: 8%;
+      width: 35%;
+
+      height: 4vh;
+    }
+    .inp3 {
+      margin-left: 14%;
+      width: 35%;
+
+      height: 4vh;
+    }
+    .inp4 {
+      margin-left: 15%;
+      width: 35%;
+
+      height: 4vh;
+    }
+    .inp5 {
+      margin-left: 17%;
+      width: 35%;
+
+      height: 4vh;
+    }
+    .id6 {
+      margin-left: 7%;
+      margin-bottom: 4%;
+    }
+    button {
+      margin-left: 7%;
+      width: 27%;
+      height: 4vh;
+      border-bottom-left-radius: 45%;
+      border-top-right-radius: 46%;
+      border-top-left-radius: 48%;
+      border-bottom-right-radius: 46%;
+    }
+    .id9 {
+      margin-top: 3%;
+      text-align: center;
+    }
+    .id10 {
+      text-align: center;
+      margin-top: 3%;
+    }
+    .id11 {
+      display: flex;
+      justify-content: center;
+      gap: 30px;
+      margin-top: 3%;
+    }
+    .icon {
+      height: 40px;
+      width: 40px;
+      margin-top: 5%;
+      margin-bottom: 152%;
+    }
+    .id12 {
+      text-align: center;
+      margin-top: 3%;
+    }
+    .input {
+      background: black;
+      width: 31%;
+      border-radius: 50px;
+      border: 1px solid black;
+      height: 6vh;
+      color: white;
+      margin-left: 6%;
     }
   </style>
   <body>
     <div class="container">
-      <div><img src="unnamed.png" alt="unnamed.png" width="30%" /></div>
-      <div class="border">
-        <div class="Create"><p>create an account</p></div>
+      <div class="image">
+        <img src="unnamed.png" alt="unnamed.png" width="50%" />
+        <div class="emd">
+          <div class="id21"></div>
+          <p>Signup the form</p>
+        </div>
+
+        <div class="border">
+          <div class="create"><p>create an account</p></div>
+          <div class="id1">
+            <label class="label1">Full Name</label>
+            <input class="inp1" type="text" placeholder="Full Name" />
+          </div>
+          <div class="id2">
+            <label class="label2">Email Address</label>
+            <input class="inp2" type="text" placeholder="Email Address" />
+          </div>
+          <div class="id3">
+            <label class="label3">Phone No</label>
+            <input class="inp3" type="number" placeholder="+91" />
+          </div>
+          <div class="id4">
+            <label class="label4">Password</label>
+            <input class="inp4" type="password" placeholder="Password" />
+          </div>
+          <div class="id5">
+            <label class="label5">Website</label>
+            <input class="inp5" type="text" placeholder="website" />
+          </div>
+          <input class="id6" id="checkbox" type="checkbox" />
+          <label class="id7"
+            >I Agree All Statement Term Of All The Services
+          </label>
+          <div class="id8">
+            <input class="input" type="button" value="Create An Account" />
+          </div>
+          <div class="id9">Or</div>
+          <div class="id10">Signup With This Service</div>
+          <div class="id11">
+            <i class="fa-brands fa-google"></i>
+            <!-- <img class="icon" src="download.png" alt="download.png" />
+           -->
+            <i class="fa-brands fa-twitter"></i>
+            <!-- <img class="icon" src="download (2).png" alt="download2" /> -->
+            <i class="fa-brands fa-facebook"></i>
+          </div>
+          <div class="id12">I'm already a member!Sign in</div>
+        </div>
       </div>
     </div>
   </body>
