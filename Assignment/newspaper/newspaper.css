@@ -17,10 +17,10 @@
   margin-top: -2%;
 }
 .box {
-  border: 2px solid black;
+  border: 2px solid #c5def0;
   width: 84%;
   margin-left: 10%;
-  background: green;
+  background: white;
   height: 127vh;
 }
 
@@ -48,7 +48,7 @@
   font-size: x-small;
 }
 .chand1 {
-  border: 7px solid black;
+  border: 7px solid #c5def0;
   height: 12vh;
   width: 88%;
   font-size: x-small;
@@ -56,7 +56,7 @@
   margin-top: -7%;
 }
 .isro1 {
-  border: 8px solid black;
+  border: 8px solid #c5def0;
   height: 12vh;
   width: 65%;
   font-size: x-small;
@@ -65,7 +65,7 @@
 }
 .often1 {
   margin-left: -4%;
-  border: 7px solid black;
+  border: 7px solid #c5def0;
   height: 12vh;
   width: 63%;
   font-size: x-small;
@@ -83,7 +83,7 @@
   width: 100%;
 }
 .born {
-  border: 7px solid black;
+  border: 7px solid #c5def0;
   height: 12vh;
   width: 29%;
   margin-left: -2%;
@@ -109,4 +109,8 @@
   width: 82%;
   float: right;
   height: 62vh;
+}
+.birthday {
+  background: #ccdbf0;
+  width: 82%;
 }
