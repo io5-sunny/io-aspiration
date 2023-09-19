@@ -1,0 +1,98 @@
+.background {
+  background-size: cover;
+  height: 100vh;
+  background-position: 100%;
+  background-image: url(https://img.freepik.com/free-photo/top-view-desk-dark-concept-with-copy-space_23-2148459511.jpg);
+}
+.port {
+  font-size: x-large;
+  margin-left: 2%;
+}
+span {
+  background: #d41549;
+}
+.heading {
+  display: flex;
+  font-size: large;
+  color: white;
+}
+.about1 {
+  margin-left: 20%;
+  margin-top: 1.5%;
+}
+.service {
+  margin-left: 4%;
+}
+.skl {
+  margin-left: 4%;
+}
+.cont {
+  margin-left: 4%;
+}
+.button {
+  height: 6vh;
+  margin-left: 15%;
+  border-radius: 25px;
+  margin-top: 2%;
+  width: 87px;
+  background: #f6024e;
+  color: white;
+}
+.name {
+  margin-top: 9%;
+  margin-left: 3%;
+  font-size: 20px;
+  color: #525359;
+}
+.t {
+  margin-left: 3%;
+  font-size: 64px;
+  margin-top: -5%;
+  color: white;
+  display: flex;
+}
+/* div {
+  margin-top: 5%;
+  margin-left: 3%;
+  color: #f4044f;
+} */
+.t span {
+  color: white;
+}
+.dev {
+  margin-left: 4%;
+  margin-top: -5%;
+  font-size: larger;
+  width: 25%;
+  color: white;
+}
+button {
+  margin-left: -6.5%;
+  border-radius: 20px;
+  background: #f6024e;
+}
+.inp2 {
+  margin-left: 4%;
+  width: 25%;
+  height: 5vh;
+  border-radius: 20px;
+  margin-top: 2%;
+}
+.lets {
+  display: flex;
+  color: white;
+  margin-top: 9%;
+  margin-left: 5%;
+}
+.fb {
+  margin-left: 10%;
+}
+.tw {
+  margin-left: 2%;
+}
+.li {
+  margin-left: 2%;
+}
+.you {
+  margin-left: 2%;
+}
