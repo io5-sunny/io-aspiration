@@ -21,7 +21,10 @@
   border: 1px solid black;
   width: 20%;
   margin-left: 7%;
+  background-image: url(./788789.jpg);
   margin-top: 1%;
+  background-size: cover;
+  background-position: 100%;
 }
 .box2 {
   height: 24vh;
@@ -29,6 +32,9 @@
   width: 20%;
   margin-left: 2%;
   margin-top: 1%;
+  background-size: cover;
+  background-position: 100%;
+  background-image: url(./pexels-denafi-sy-786220.jpg);
 }
 .box3 {
   height: 24vh;
@@ -36,6 +42,9 @@
   width: 20%;
   margin-left: 2%;
   margin-top: 1%;
+  background-size: cover;
+  background-position: 100%;
+  background-image: url(./download\ 3.jpg);
 }
 .box4 {
   height: 24vh;
@@ -43,6 +52,9 @@
   width: 20%;
   margin-left: 2%;
   margin-top: 1%;
+  background-size: cover;
+  background-position: 100%;
+  background-image: url(./download\ 4.jpg);
 }
 .box5 {
   height: 24vh;
@@ -50,6 +62,9 @@
   width: 20%;
   margin-left: 7%;
   margin-top: 1%;
+  background-size: cover;
+  background-position: 100%;
+  background-image: url(./download\ 5.jpg);
 }
 .box6 {
   height: 24vh;
@@ -57,6 +72,9 @@
   width: 20%;
   margin-left: 2%;
   margin-top: 1%;
+  background-size: cover;
+  background-position: 100%;
+  background-image: url(./download\ 6.jpg);
 }
 .box7 {
   height: 24vh;
@@ -64,6 +82,9 @@
   width: 20%;
   margin-left: 2%;
   margin-top: 1%;
+  background-size: cover;
+  background-position: 100%;
+  background-image: url(./download\ 7.jpg);
 }
 .box8 {
   height: 24vh;
@@ -71,6 +92,9 @@
   width: 20%;
   margin-left: 2%;
   margin-top: 1%;
+  background-size: cover;
+  background-position: 100%;
+  background-image: url(./download\ 8.jpg);
 }
 .box9 {
   height: 24vh;
@@ -78,6 +102,9 @@
   width: 20%;
   margin-left: 7%;
   margin-top: 1%;
+  background-size: cover;
+  background-position: 100%;
+  background-image: url(./download\ 9.jpg);
 }
 .box10 {
   height: 24vh;
@@ -85,6 +112,9 @@
   width: 20%;
   margin-left: 2%;
   margin-top: 1%;
+  background-size: cover;
+  background-position: 100%;
+  background-image: url(./download\ 10.jpg);
 }
 .box11 {
   height: 24vh;
@@ -92,6 +122,9 @@
   width: 20%;
   margin-left: 2%;
   margin-top: 1%;
+  background-size: cover;
+  background-position: 100%;
+  background-image: url(./images\ 11.jpg);
 }
 .box12 {
   height: 24vh;
@@ -99,13 +132,64 @@
   width: 20%;
   margin-left: 2%;
   margin-top: 1%;
+  background-size: cover;
+  background-position: 100%;
+  background-image: url(./download\ 12.jpg);
+}
+.para {
+  font-family: "Noto Sans", sans-serif;
+  color: white;
 }
 img {
   width: 100%;
   height: 24vh;
 }
-.font6 {
+.para2 {
+  font-family: "Noto Sans JP", sans-serif;
+  color: white;
+}
+.para3 {
+  font-family: "Kenia", cursive;
+  color: white;
+}
+.para4 {
+  font-family: "Tiro Devanagari Hindi", serif;
+  color: white;
+}
+.para5 {
+  font-family: "Raleway", sans-serif;
+  color: white;
+}
+.para6 {
+  font-family: "Lora", serif;
+  color: black;
+}
+.para7 {
+  font-family: "Hind", sans-serif;
+  color: white;
+}
+.para8 {
+  font-family: "Kenia", cursive;
+  color: white;
+}
+.para9 {
+  font-family: "Noto Sans", sans-serif;
+  color: black;
+}
+.para10 {
+  font-family: "DM Sans", sans-serif;
+  color: white;
+}
+.para11 {
+  font-family: "Titillium Web", sans-serif;
+  color: white;
+}
+.para12 {
+  font-family: "DM Sans", sans-serif;
+  color: white;
+}
+/* .font6 {
   font-family: "Black Ops One", cursive;
   font-family: "Croissant One", cursive;
   font-family: "Roboto", sans-serif;
-}
+} */

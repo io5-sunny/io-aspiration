@@ -9,7 +9,7 @@
   margin-left: 2%;
 }
 span {
-  background: #d41549;
+  color: #d41549;
 }
 .heading {
   display: flex;
@@ -57,7 +57,7 @@ span {
   color: #f4044f;
 } */
 .t span {
-  color: white;
+  color: #f6024e;
 }
 .dev {
   margin-left: 4%;
