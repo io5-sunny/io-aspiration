@@ -1,0 +1,144 @@
+.box {
+  height: 130vh;
+  width: 50%;
+  background: #d7f1f1;
+  position: absolute;
+  margin-left: 25%;
+}
+.container {
+  width: 100%;
+  height: 130vh;
+  position: relative;
+  background: #f0f8ff;
+}
+
+.logo {
+  height: 15vh;
+  margin-top: 6%;
+  margin-left: 2%;
+  display: flex;
+}
+.para {
+  margin-top: 5%;
+  font-size: 2rem;
+  color: #891e0e;
+}
+.box1 {
+  height: 8vh;
+  width: 107%;
+  background: #3a6945;
+
+  margin-left: 10%;
+  position: absolute;
+  z-index: 0;
+  /* border: 2px solid black; */
+  margin-top: 28%;
+  border-radius: 28px;
+  transform: rotate(37deg);
+}
+.box2 {
+  height: 8vh;
+  width: 51%;
+  background: #3a6945;
+  margin-left: 3%;
+  position: absolute;
+  z-index: 0;
+  /* border: 2px solid black; */
+  margin-top: 11%;
+  border-radius: 28px;
+  transform: rotate(136deg);
+}
+.box3 {
+  height: 8vh;
+  width: 87%;
+  background: #3a6945;
+  margin-left: -17%;
+  position: absolute;
+  z-index: 0;
+  /* border: 2px solid black; */
+  margin-top: 29%;
+  border-radius: 28px;
+  transform: rotate(135deg);
+}
+.box4 {
+  height: 8vh;
+  width: 52%;
+  background: #3a6945;
+  margin-left: 23%;
+  position: absolute;
+  z-index: 0;
+  /* border: 2px solid black; */
+  margin-top: 41%;
+  border-radius: 28px;
+  transform: rotate(135deg);
+}
+.box5 {
+  height: 46vh;
+  width: 45%;
+  background: #3a6945;
+  margin-left: 77%;
+  transform: rotate(-46deg);
+  position: absolute;
+  z-index: 0;
+  margin-top: -3%;
+  border-radius: 10px;
+}
+.ironman {
+  position: absolute;
+  width: 29%;
+  transform: rotateZ(40deg);
+  margin-top: 2%;
+  margin-left: 17%;
+  height: 36vh;
+  border-radius: 12px;
+}
+.hulkman {
+  height: 26vh;
+  width: 27%;
+  position: absolute;
+  margin-left: 42vh;
+  transform: rotate(41deg);
+  margin-top: -15%;
+  border-radius: 25px;
+}
+.thorman {
+  height: 45vh;
+  position: absolute;
+  width: 33%;
+  transform: rotate(39deg);
+  margin-top: 20%;
+  border-radius: 27px;
+  margin-left: 39%;
+}
+.name {
+  margin-top: 67%;
+  margin-left: 2%;
+  font-size: large;
+  color: #6e8e31;
+}
+.surname {
+  margin-top: -3%;
+  margin-left: 2%;
+  font-size: large;
+  color: #1e1891;
+}
+.lastname {
+  margin-top: -3%;
+  margin-left: 2%;
+  font-size: large;
+  color: #6e8e31;
+}
+.follow {
+  display: flex;
+  margin-left: 2%;
+}
+.facebook {
+  margin-top: 3%;
+  margin-left: 2%;
+  color: blue;
+}
+.twitter {
+  margin-top: 3%;
+  margin-left: 2%;
+  color: blue;
+}
