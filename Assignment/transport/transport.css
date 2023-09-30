@@ -1,0 +1,90 @@
+* {
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+}
+.header {
+  border: 2px solid green;
+  margin-top: 0%;
+  /* position: absolute; */
+  width: 100%;
+  height: 14vh;
+  background: #1ca6ef;
+  display: flex;
+}
+.container {
+  width: 100%;
+  height: 100vh;
+  background: black;
+  position: relative;
+}
+
+.government {
+  width: 69%;
+  color: white;
+  height: 13vh;
+  margin-left: 2%;
+}
+
+.msarthi {
+  margin-top: 0%;
+  margin-left: 2%;
+  height: 13vh;
+}
+.dateandtime {
+  margin-left: 8%;
+}
+select {
+  width: 5%;
+  height: 3vh;
+  margin-top: 2%;
+}
+.lang {
+  margin-top: 2%;
+  margin-left: -13%;
+}
+.button {
+  margin-left: 1%;
+  height: 3vh;
+  margin-top: 2%;
+  background: green;
+  color: white;
+  width: 6%;
+}
+.buttons {
+  margin-left: 1%;
+  height: 3vh;
+  margin-top: 2%;
+  background: green;
+  color: white;
+  width: 4%;
+}
+.p1 {
+  margin-left: 75px;
+}
+.p2 {
+  margin-left: 124%;
+  margin-top: -20%;
+}
+.p3 {
+  margin-left: 170%;
+  margin-top: -20%;
+}
+.heading {
+  border: 2px solid green;
+  width: 100%;
+  height: 7vh;
+  background: #d9edf6;
+}
+.trans {
+  text-align: center;
+  color: blue;
+  margin-top: 1%;
+}
+.middle {
+  border: 2px solid grey;
+  width: 100%;
+  height: 7vh;
+  background: #319ac9;
+  margin-top: 0.5%;
+}
