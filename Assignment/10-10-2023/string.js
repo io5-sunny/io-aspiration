@@ -96,7 +96,7 @@ function cityFahrenheit() {
   let kelvin = celsius - 273;
   console.log("kalvin", kelvin);
 }
-cityFahrenheit();
+//cityFahrenheit();
 
 // ---5..--------------------------------------------------
 
@@ -136,3 +136,39 @@ function radiusOfCircle() {
 //     console.log("leap year", i);
 //   }
 // }
+
+//The company you work for has just been awarded a contract to build a
+//payment gateway. In order to help move things along,
+//you have volunteered to create a function that will take a float and
+//return (IN STRING FORMAT) the amount formatting in dollars and cents.
+
+//39.99 becomes: $39.99
+
+//3 become $3.00
+
+//3.1 become $3.10
+
+//4500 become 4500Rs.
+
+function changeDollar() {
+  let rupees = prompt("cents into dollar");
+  let cents = prompt("dollar into cents");
+  let dollar = rupees / 83;
+  console.log("dollar", dollar, "$");
+  let cent = dollar * 83;
+  console.log("rupees ", cent, "Rs");
+}
+//changeDollar();
+
+//Complete the solution so that it reverses the string passed into it.
+
+//‘world’ => ‘dlrow’
+//"Honey bees make honey" ==> "'yenoh ekam seeb yenoH'"
+//“The greatest victory is that which requires no battle”
+//==> “battle no requires which that is victory greatest The”
+
+function reverseNumber() {
+  let reverseWords = "world";
+  console.log("reverse the words", reverseWords.split("").reverse().join(""));
+}
+reverseNumber();
