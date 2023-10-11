@@ -12,7 +12,7 @@ if (input.length !== 5 || isNaN(input)) {
     var digit = number % 10;
     reversedNumber = reversedNumber * 10 + digit;
 
-    number = Math.floor(number / 10);
+    number = Math.trunc(number / 10);
   }
   console.log("The reversed number is: " + reversedNumber);
 }
