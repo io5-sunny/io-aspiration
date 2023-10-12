@@ -160,7 +160,7 @@ function changeDollar() {
 }
 //changeDollar();
 
-//Complete the solution so that it reverses the string passed into it.
+//8Complete the solution so that it reverses the string passed into it.
 
 //‘world’ => ‘dlrow’
 //"Honey bees make honey" ==> "'yenoh ekam seeb yenoH'"
@@ -168,7 +168,119 @@ function changeDollar() {
 //==> “battle no requires which that is victory greatest The”
 
 function reverseNumber() {
-  let reverseWords = "world";
+  let reverseWords = prompt("words");
   console.log("reverse the words", reverseWords.split("").reverse().join(""));
 }
-reverseNumber();
+//reverseNumber();
+
+// 9. Write an ATM machine program which gives the list in console
+//     Change Pin          : 1
+//     Cash Withdrawal     : 2
+//     Cash Deposit        : 3
+//     Check Balance       : 4
+//     Mini statement      : 5
+//     Invalid option      : < 0 || > 5
+
+//     You have changed Pin
+//     Please enter a valid Pin
+
+//     You have successfully Withdrawal 55000Rs
+
+//     You have successfully deposited 5000Rs, current balance is 60000Rs
+
+//     The available balance is 60000Rs
+
+//     Mini statement is not working. Sorry for inconvenient cost
+
+//     Please enter a valid option
+
+// function atmMachine() {
+//   let changePin = prompt(Number(" enter change pin 1,cash deposit 2,cash withdrawal 3,check balance 4,mini statement 5"));
+//   for  (
+//     console.log("enter 1 for change pin")
+//     let cardPin= prompt(Number('enter card pin'))
+//     if (Number(cardPin)==defined);
+//     console.log( 'card pin match ,change new pin')
+//   else {
+//     return console.log("card pin not match  please enter valid card pin ");
+
+//   }
+//   let changeCardPin = prompt(Number("enter new card pin"));
+//   console.log("your card pin changed");
+
+//   }
+
+//atmMachine();
+
+/**]
+ * A certain grade of steel is graded according to the following conditions:
+ *
+ * (i) Hardness must be greater than 50
+ * (ii) Corbon content must be less than 0.7
+ * (iii) Tensile strength must be greater than 5600
+ *
+ *
+ * The grades are follows
+ * 1. Grade is 10 is all three conditions are met
+ * 2. Grade is 9: if (i) and (ii)  are met
+ * 3. Grade is 8: if (ii) and (iii)  are met
+ * 4. Grade is 7: if (i) and (iii)  are met
+ * 5. Grade is 6: if only one is met
+ * 6. Grade is 5: if none of the conditions are met
+ *  */
+
+function steelGrade() {
+  let Hardness = prompt("hardness");
+  let carbon = prompt("carbon");
+  let tensile = prompt("tensile");
+  let hardness = steel < 50;
+  console.log(" it is hardness steel", hardness);
+  let carbonSteel = carbon < 0.7;
+  console.log("it is a carbon steel");
+  let TensileSteel = tensile < 5600;
+  console.log("it is a tensile steel", TensileSteel);
+  grade = Number(Hardness) + Number(carbon) + Number(tensile);
+}
+//steelGrade();
+
+document.write("hello <br>");
+let row = 4;
+for (let i = 1; i <= 4; i++) {
+  document.write("*");
+}
+
+let i = 6;
+document.write("<br>");
+
+for (let i = 1; i <= 6; i++) {
+  document.write(" = ");
+  for (let j = 1; j <= 7; j++) {
+    document.write(" + ");
+  }
+  document.write("<br>");
+}
+let ro = 7;
+
+for (let h = 1; h <= 7; h++) {
+  for (let v = 1; v <= 7; v++) {
+    document.write(" 8 ");
+  }
+  document.write("<br>");
+}
+let r = 4;
+let c = 4;
+for (let i = 1; i <= r; i++) {
+  for (let j = 1; j <= c; j++) {
+    document.write("  5  ");
+  }
+  document.write("<br>");
+}
+
+let v = 7;
+let s = 7;
+for (let i = 1; i <= v; i++) {
+  for (let j = 1; j <= i; j++) {
+    document.write(" * ");
+  }
+  document.write("</br>");
+}

@@ -88,3 +88,18 @@ select {
   background: #319ac9;
   margin-top: 0.5%;
 }
+#learners {
+  width: 14% !important;
+  background: #319ac9;
+  border: none;
+}
+#licence {
+  width: 14%;
+  background: #319ac9;
+  border: none;
+}
+#conduct {
+  width: 14%;
+  background: #319ac9;
+  border: none;
+}
