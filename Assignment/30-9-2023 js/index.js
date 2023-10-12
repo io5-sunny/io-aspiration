@@ -66,6 +66,7 @@
 //   console.log(`The sum of ${num} is ${sum}`);
 // }
 // sumOfFirstAndLastDigit();
+
 // In a company an employee is paid as under:
 // If his basic salary is less than Rs. 1500, then HRA = 10% of
 // basic salary and DA = 90% of basic salary.
@@ -74,15 +75,22 @@
 //    If the employee's salary is input through the keyboard
 //     write a program to find his gross salary.
 
-// function grosssalary() {
-//    HRA = 10%
-//    DA = 90%
-//        HRA =10*10/100;
-//   DA = 90*10/100;
-//   BS=HRA+DA/100
-//   grosssalary=HRA+DA+BS
-
-// }
+function grossSalary() {
+  let bs = prompt(Number("enter a salary"));
+  let gs;
+  let hra;
+  let da;
+  if (bs < 1500) {
+    hra = (bs * 10) / 100;
+    da = (bs * 90) / 100;
+  } else {
+    hra = 500;
+    da = (bs * 98) / 100;
+  }
+  gs = hra + bs + da;
+  console.log(`bs${bs},hra${hra},da${da},gs${gs}`);
+}
+//grossSalary();
 
 // for(let i=1;i<=10;i++){
 //   console.log("3+"${*}+i+${=})
@@ -90,8 +98,58 @@
 // for (let w = 10; i <= 1; i++) {
 //   console.log(`10*${w}=${12 * 40}`);
 // }
-for (let i = 1; i <= 100; i++) 
-  {if(i%2==0){
-    console.log{"even number";i};
-  }}
+//for (let i = 1; i <= 100; i++) {
+//if (i % 2 == 0) {
+// console.log("even number", i);
+// }
+//}
 
+//If the ages of Ram, Shyam and Ajay are input through the keyboard,
+//write a program to determine the youngest of the three.
+
+function personAges() {
+  let sy = prompt("shyam age");
+  let ay = prompt("ajay age");
+  let ram = prompt("ram age");
+  if (ram < sy && ram < ay) {
+    console.log(`ram is young,ram${ram},sy${sy},ay${ay}`);
+  } else if (sy < ay) {
+    console.log(`shyam is young,ram${ram},sy${sy},ay${ay}`);
+  } else {
+    console.log(`ajay is young,ram${ram},sy${sy},ay${ay}`);
+  }
+}
+//personAges();
+
+//Write a program to check whether a triangle is valid or not,
+//when the three angles of the triangle are entered through the keyboard.
+//A triangle is valid
+//if the sum of all the three angles is equal to 180 degrees.
+
+function triangle() {
+  let s1 = prompt("enter first side");
+  let s2 = prompt("enter second side");
+  let s3 = prompt("enter third side");
+  if (Number(s1) + Number(s2) + Number(s3) == 180)
+    console.log("triangle is valid");
+  else {
+    s1 + s2 + s3 != 180;
+    console.log("triangle not valid");
+  }
+}
+//triangle();
+
+//12 //Write a program to find the absolute value of a number
+//entered through the keyboard. (non-negative number)
+
+function absoluteValue() {
+  let number = prompt("enter a value");
+  if (isNaN(number)) {
+    console.log("please enter valid number");
+  } else if (number > 0) {
+    console.log(`enter number ${number} is absolute value`);
+  } else {
+    console.log("number is negative");
+  }
+}
+absoluteValue();
