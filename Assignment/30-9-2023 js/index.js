@@ -152,4 +152,33 @@ function absoluteValue() {
     console.log("number is negative");
   }
 }
-absoluteValue();
+//absoluteValue();
+
+//13Given the length and breadth of a rectangle,
+//write a program to find whether the area of the rectangle is greater
+//than its perimeter. For example, the area of the
+//rectangle with length = 5 and breadth = 4 is greater than its perimeter.
+
+function areaRectAngle() {
+  let length = prompt("enter length of rectangle");
+  let breadth = prompt("enter breadth of rectangle");
+  let areaRectAngle = length * breadth;
+  console.log("area of rectangle", areaRectAngle);
+  let perimeter = 2 * (Number(length) + Number(breadth));
+  console.log("rectangle perimeter ", perimeter);
+  if (areaRectAngle > perimeter) {
+    console.log("area of rectangle greater");
+  } else {
+    console.log("perimeter is greater");
+  }
+}
+//areaRectAngle();
+
+//14.The marks obtained by a student in 5
+//different subjects are input through the keyboard.
+//The student gets a division as per the following rules:
+
+//Percentage above or equal to 60 - First division
+//Percentage between 50 and 59 - Second division
+//Percentage between 40 and 49 - Third division
+//Percentage less than 40 - Fail
