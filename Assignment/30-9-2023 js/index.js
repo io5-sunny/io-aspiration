@@ -182,3 +182,33 @@ function areaRectAngle() {
 //Percentage between 50 and 59 - Second division
 //Percentage between 40 and 49 - Third division
 //Percentage less than 40 - Fail
+
+function student() {
+  let math = Number(prompt("enter math obtained number"));
+  let eng = Number(prompt("enter english  obtained number"));
+  let sci = Number(prompt("enter science  obtained number"));
+  let phy = Number(prompt("enter physical  obtained number"));
+  let sst = Number(prompt("enter sst  obtained number"));
+  totalMarks =
+    Number(math) + Number(eng) + Number(sci) + Number(phy) + Number(sst);
+  console.log("student total marks obtained", totalMarks);
+  percentage = (totalMarks / 500) * 100;
+  console.log("total percentage of student", percentage);
+
+  if (percentage >= 60) {
+    console.log(`the student is first division in class`);
+  } else if (percentage >= 50 && percentage <= 59) {
+    console.log(`student second position in class`);
+  } else if (percentage >= 40 && percentage <= 49) {
+    console.log(`student third position in class`);
+  } else console.log(`student is fail in class`);
+}
+//student();
+
+16; //. A company insures its drivers in the following cases: -
+//_If the driver is married._
+//  _//If the driver is unmarried , male & above 30 years of age._
+// _If the driver is unmarried, female & above 25 years of age._
+// In all other cases, the driver is not insured. If the marital status,
+//sex and age of the driver are the inputs,
+// write a program to determine whether the driver should be insured or not.
