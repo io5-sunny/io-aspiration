@@ -51,14 +51,71 @@ for (let i = 3; i < threeLetters.length; i++) {
 //   }
 // //}
 
+// function population[];
+//   let p=100000;
+//   for(i=1;i<=15;i++){
+//     percentagePopulation.push(
+//       newYear((p[i][1]/totalPopulation[i][1])*100)
+//     )
+//   }
 
+// [
+//   'Friday',
+//   'Sunday',
+//   'Monday',
+//   'Tuesday',
+//   'Wednesday',
+//   'Thursday',
+//   'Friday',
+//   'Saturday',
+//   'Wednesday',
+//   'Wednesday',
+//   'Friday',
+//   'Friday',
 
-function population[];
-  let p=100000;
-  for(i=1;i<=15;i++){
-    percentagePopulation.push(
-      newYear((p[i][1]/totalPopulation[i][1])*100)
-    )
-  }
+// ]
 
+// const days=[  'Friday',
+//   'Sunday',
+//   'Monday',
+//   'Tuesday',
+//   'Wednesday,'
+//   'Thursday',
+//   'Friday',
+//   'Saturday`,
+//   'Wednesday`,
+//   'Wednesday',
+//   'Friday',
+//   'Friday',
+// ]
+// const withoutDup=[...new set(days)];
+// console.log("without",withoutDup);
 
+const array = [
+  [
+    "Sunday",
+    "Monday",
+    [
+      -4,
+      -3,
+      2,
+      3,
+      ["this is string", "Sunny", false, null, [1, 2, "Shekhar", 4], "vinay1"],
+    ],
+    "Tuesday",
+    "Wednesday",
+    "Thursday",
+    "Poonam",
+  ],
+  "duck",
+  "ant",
+  "Cat",
+  [
+    ["abc", 4, ["Khushbu", 78457, false, null, [1, 2, "ravan", 4], "Sapna"]],
+    1,
+    "Ritik",
+    5,
+  ],
+];
+
+console.log("array", array[4][][]);
