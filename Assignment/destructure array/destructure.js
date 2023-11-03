@@ -129,4 +129,4 @@ const [balbasur] = bulb || ["he"];
 const [, , mewT] = mew1 || [];
 const [, , , trick] = array2 || [];
 
-console.log("array", Pikachu, balbasur, mew1, treecko);
+console.log("array", Pikachu, balbasur, mew1);
